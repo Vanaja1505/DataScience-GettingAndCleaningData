@@ -1,0 +1,6 @@
+require(knitr)
+require(markdown)
+# setwd("~/GitHub repositories/GettingAndCleaningData/Project")
+setwd("D:/JVJ/New Folder")
+knit("run_analysis.Rmd", encoding="ISO8859-1")
+markdownToHTML("run_analysis.md", "run_analysis.html")packages <- c("data.table", "reshape2")
